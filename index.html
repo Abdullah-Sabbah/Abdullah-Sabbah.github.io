@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdullah Sabbah | Electrical Engineer Portfolio</title>
-  <meta name="description" content="Fresh Electrical Engineering graduate from Birzeit University. Specializing in PV Solar Systems, KNX/BMS Building Automation, and Power Electronics. Available immediately." />
+  <meta name="description" content="Electrical Engineer and Electrical Design Engineer at Orbit Consulting Engineers, specializing in building electrical layouts, MEP coordination, BOQs, PV solar systems, KNX/BMS automation, and power electronics." />
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Abdullah Sabbah | Electrical Engineer Portfolio" />
-  <meta property="og:description" content="Fresh Electrical Engineering graduate specializing in PV Systems, KNX/BMS Automation & Power Electronics. Available immediately." />
+  <meta property="og:description" content="Electrical Engineer specializing in building electrical layouts, MEP coordination, BOQs, PV systems, KNX/BMS automation, and power electronics." />
   <meta property="og:image" content="https://postimg.cc/YL31kJt9" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="" />
@@ -1109,6 +1109,31 @@
     @media (max-width: 400px) {
       .about-highlights { grid-template-columns: 1fr; }
     }
+
+    /* ===== VIEW CV BUTTON ===== */
+    .btn-cv-view {
+      background: transparent;
+      border: 1px solid rgba(57, 255, 20, 0.45);
+      color: var(--accent-green);
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 13px 26px;
+      border-radius: 6px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+    }
+    .btn-cv-view:hover {
+      background: rgba(57, 255, 20, 0.1);
+      border-color: var(--accent-green);
+      box-shadow: 0 0 22px rgba(57, 255, 20, 0.25);
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 <body>
@@ -1172,6 +1197,7 @@
       <span class="logo-bracket">[</span>A.Sabbah<span class="logo-bracket">]</span>
     </div>
     <div class="nav-links">
+      <a href="#hero">Home</a>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
@@ -1187,6 +1213,7 @@
 
 <!-- Mobile Menu -->
 <div class="mobile-menu" id="mobileMenu">
+  <a href="#hero" class="mobile-link">Home</a>
   <a href="#about" class="mobile-link">About</a>
   <a href="#experience" class="mobile-link">Experience</a>
   <a href="#skills" class="mobile-link">Skills</a>
@@ -1208,11 +1235,14 @@
         <span class="last">Sabbah</span>
       </h1>
       <p class="hero-title">
-        Power Systems<span class="dot">·</span>Building Automation<span class="dot">·</span>Solar Energy
+        Electrical Design Engineer specialized in MEP and Electrical Layouts
+        <span class="dot">·</span>Solar Energy System Design
+        <span class="dot">·</span>Building Automation
       </p>
       <div class="hero-typing-wrapper">
         <span class="hero-typing" id="typingText"></span>
       </div>
+
       <div class="hero-cta">
         <a href="mailto:a.sabbah2002@gmail.com" class="btn btn-primary" rel="noopener noreferrer">
           <i class="fas fa-envelope"></i> Email Me
@@ -1223,21 +1253,26 @@
         <a href="https://wa.me/970595695739" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
           <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
+
+        <!-- Download CV Button -->
+        <a href="https://drive.google.com/file/d/1iQ6KVRpd0FAtBa4y4tL0sHFBPPc40fM5/view?usp=sharing" download class="btn btn-outline">
+          <i class="fas fa-file-download"></i> Download CV
+        </a>
       </div>
     </div>
+
     <div class="hero-photo-wrap">
       <div class="hero-photo-ring">
-        <img
-          src="https://i.postimg.cc/YL31kJt9/image.jpg"
-          alt="Abdullah Thabit Sabbah - Electrical Engineer"
-          loading="eager"
-          onerror="this.onerror=null; this.src='https://postimg.cc/YL31kJt9';"
-        />
+        <img src="https://i.postimg.cc/YL31kJt9/image.jpg"
+             alt="Abdullah Thabit Sabbah - Electrical Engineer"
+             loading="eager"
+             onerror="this.onerror=null; this.src='https://postimg.cc/YL31kJt9';" />
       </div>
-      <div class="hero-photo-badge">Available Now</div>
     </div>
   </div>
 </section>
+
+
 
 <!-- ===== ABOUT SECTION ===== -->
 <section id="about">
@@ -1249,19 +1284,19 @@
     <div class="about-grid">
       <div class="about-text fade-up">
         <p>
-          I'm a <strong>fresh Electrical Engineering graduate from Birzeit University</strong> (February 2026), combining strong theoretical foundations with real-world, hands-on field experience across multiple engineering domains.
+          I'm an <strong>Electrical Design Engineer at Orbit Consulting Engineers</strong> and an Electrical Engineering graduate from Birzeit University (February 2026), combining strong theoretical foundations with hands-on experience across multiple engineering domains.
         </p>
         <p>
-          My work spans <strong>PV solar system design and installation</strong>, <strong>KNX/BMS building automation programming</strong>, power electronics research, and practical electrical installation — giving me a versatile toolkit that most new graduates simply don't have.
+          My work spans <strong>building electrical layout design and MEP coordination</strong>, preparing Bills of Quantities (BOQs), <strong>PV solar system design and installation</strong>, <strong>KNX/BMS building automation programming</strong>, power electronics research, and practical electrical installation.
         </p>
         <p>
-          I thrive in the field as much as I do at the design desk. Whether it's sizing a solar array, commissioning a smart building system, or debugging a power converter simulation, I bring the same precision and drive. I'm <strong>eager to keep learning</strong>, open to new domains, and ready to contribute from day one.
+          I thrive in the field as much as I do at the design desk. Whether I'm preparing coordinated building layouts, sizing a solar array, commissioning a smart building system, or debugging a power converter simulation, I bring the same precision and drive. I'm <strong>always eager to keep learning</strong> and growing as an engineer.
         </p>
         <div class="about-details">
           <div class="detail-chip"><i class="fas fa-language"></i> Arabic (Native)</div>
           <div class="detail-chip"><i class="fas fa-language"></i> English (Fluent)</div>
           <div class="detail-chip"><i class="fas fa-car"></i> Valid Driver's License</div>
-          <div class="detail-chip"><i class="fas fa-bolt"></i> Available Immediately</div>
+          <div class="detail-chip"><i class="fas fa-briefcase"></i> Currently Employed</div>
           <div class="detail-chip"><i class="fas fa-tools"></i> Flexible for Field Work</div>
           <div class="detail-chip"><i class="fas fa-map-marker-alt"></i> Ramallah, Palestine</div>
         </div>
@@ -1274,8 +1309,8 @@
         </div>
         <div class="stat-card">
           <span class="stat-icon">⚡</span>
-          <div class="stat-label">Internships</div>
-          <div class="stat-value">3 Hands-On Roles</div>
+          <div class="stat-label">Experience</div>
+          <div class="stat-value">5 Hands-On Roles</div>
         </div>
         <div class="stat-card">
           <span class="stat-icon">☀️</span>
@@ -1316,29 +1351,53 @@
         <div class="timeline-dot"></div>
         <div class="exp-card">
           <div class="exp-header">
-            <div class="exp-role"><i class="fas fa-solar-panel" style="color:var(--accent-blue);margin-right:10px;"></i>PV Systems Intern</div>
-            <span class="exp-period">2026 – Present</span>
+            <div class="exp-role"><i class="fas fa-drafting-compass" style="color:var(--accent-blue);margin-right:10px;"></i>Electrical Design Engineer</div>
+            <span class="exp-period">Aug–Now 2026</span>
           </div>
           <div class="exp-companies">
-            <span class="exp-company"><i class="fas fa-building"></i> Al-Takamul Engineering Company</span>
+            <span class="exp-company"><i class="fas fa-building"></i> Orbit Consulting Engineers · Ramallah, Palestine</span>
           </div>
           <ul class="exp-bullets">
-            <li>Design, install, and maintain photovoltaic solar power systems for residential and commercial applications</li>
-            <li>Conduct site assessments, system sizing calculations, and technical specifications for PV installations</li>
-            <li>Perform system commissioning, testing, and preventive maintenance on solar installations</li>
-            <li>Troubleshoot and optimize solar system performance to ensure maximum energy generation efficiency</li>
+            <li>Draw electrical layouts for buildings as part of the MEP design team using AutoCAD</li>
+            <li>Prepare Bills of Quantities (BOQs), listing the materials and quantities needed for each project</li>
+            <li>Work with the mechanical and plumbing engineers so the designs fit together</li>
           </ul>
           <div class="tag-row">
-            <span class="tag">PV Systems</span>
-            <span class="tag">PVSyst</span>
-            <span class="tag">Solar Design</span>
-            <span class="tag">Site Assessment</span>
-            <span class="tag">System Commissioning</span>
+            <span class="tag">AutoCAD</span>
+            <span class="tag">Electrical Layouts</span>
+            <span class="tag">MEP Design</span>
+            <span class="tag">BOQs</span>
+            <span class="tag">Design Coordination</span>
           </div>
         </div>
       </div>
 
       <!-- Experience 2 -->
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot green"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-role"><i class="fas fa-solar-panel" style="color:var(--accent-blue);margin-right:10px;"></i>PV Systems Intern</div>
+            <span class="exp-period">Apr–May 2026</span>
+          </div>
+          <div class="exp-companies">
+            <span class="exp-company"><i class="fas fa-building"></i> Al-Takamul Engineering Company · Ramallah, Palestine</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Learned how solar systems are sold, from understanding customer needs to explaining the system and its benefits</li>
+            <li>Installed and maintained solar systems for homes and businesses</li>
+            <li>Explained technical issues in a clear and simple way</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">PV Systems</span>
+            <span class="tag">Solar Installation</span>
+            <span class="tag">System Maintenance</span>
+            <span class="tag">Technical Communication</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience 3 -->
       <div class="timeline-item fade-up">
         <div class="timeline-dot green"></div>
         <div class="exp-card">
@@ -1369,7 +1428,7 @@
         </div>
       </div>
 
-      <!-- Experience 3 -->
+      <!-- Experience 4 -->
       <div class="timeline-item fade-up">
         <div class="timeline-dot"></div>
         <div class="exp-card">
@@ -1396,7 +1455,7 @@
         </div>
       </div>
 
-      <!-- Experience 4 -->
+      <!-- Experience 5 -->
       <div class="timeline-item fade-up">
         <div class="timeline-dot green"></div>
         <div class="exp-card">
@@ -1548,51 +1607,202 @@
       <div class="project-visual">
         <!-- Circuit / Power Converter SVG Illustration -->
         <div class="circuit-svg-wrap">
-          <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
-            <!-- Power source -->
-            <rect x="10" y="80" width="36" height="40" rx="4" fill="rgba(0,200,255,0.08)" stroke="#00c8ff" stroke-width="1.5"/>
-            <text x="28" y="96" text-anchor="middle" fill="#00c8ff" font-size="8" font-family="monospace">+</text>
-            <text x="28" y="112" text-anchor="middle" fill="#00c8ff" font-size="8" font-family="monospace">-</text>
-            <text x="28" y="132" text-anchor="middle" fill="#8899bb" font-size="7" font-family="monospace">Vdc</text>
-            <!-- Wires -->
-            <line x1="46" y1="88" x2="80" y2="88" stroke="#00c8ff" stroke-width="1.5"/>
-            <line x1="46" y1="112" x2="80" y2="112" stroke="#00c8ff" stroke-width="1.5"/>
-            <!-- Inductor symbol top rail -->
-            <path d="M80 88 Q87 78 94 88 Q101 78 108 88 Q115 78 122 88" fill="none" stroke="#39ff14" stroke-width="1.5"/>
-            <line x1="122" y1="88" x2="160" y2="88" stroke="#00c8ff" stroke-width="1.5"/>
-            <!-- GaN HEMT switch -->
-            <rect x="138" y="72" width="28" height="50" rx="4" fill="rgba(57,255,20,0.06)" stroke="#39ff14" stroke-width="1.5"/>
-            <text x="152" y="92" text-anchor="middle" fill="#39ff14" font-size="7.5" font-family="monospace" font-weight="bold">GaN</text>
-            <text x="152" y="104" text-anchor="middle" fill="#39ff14" font-size="6" font-family="monospace">HEMT</text>
-            <line x1="152" y1="60" x2="152" y2="72" stroke="#39ff14" stroke-width="1" stroke-dasharray="3,2"/>
-            <text x="152" y="58" text-anchor="middle" fill="#8899bb" font-size="6" font-family="monospace">Gate</text>
-            <!-- Capacitor -->
-            <line x1="180" y1="75" x2="180" y2="88" stroke="#00c8ff" stroke-width="1.5"/>
-            <line x1="170" y1="88" x2="190" y2="88" stroke="#00c8ff" stroke-width="2"/>
-            <line x1="170" y1="94" x2="190" y2="94" stroke="#00c8ff" stroke-width="2"/>
-            <line x1="180" y1="94" x2="180" y2="112" stroke="#00c8ff" stroke-width="1.5"/>
-            <text x="197" y="95" fill="#8899bb" font-size="7" font-family="monospace">C</text>
-            <!-- Load resistor -->
-            <line x1="210" y1="88" x2="240" y2="88" stroke="#00c8ff" stroke-width="1.5"/>
-            <rect x="226" y="80" width="24" height="36" rx="3" fill="rgba(0,200,255,0.06)" stroke="#00c8ff" stroke-width="1.5"/>
-            <text x="238" y="101" text-anchor="middle" fill="#00c8ff" font-size="8" font-family="monospace">R</text>
-            <line x1="250" y1="88" x2="260" y2="88" stroke="#00c8ff" stroke-width="1.5"/>
-            <line x1="260" y1="88" x2="260" y2="112" stroke="#00c8ff" stroke-width="1.5"/>
-            <!-- Bottom rail -->
-            <line x1="10" y1="112" x2="260" y2="112" stroke="#00c8ff" stroke-width="1.5"/>
-            <!-- Voltage labels -->
-            <text x="30" y="155" fill="#00c8ff" font-size="9" font-family="monospace">Vin</text>
-            <text x="228" y="155" fill="#39ff14" font-size="9" font-family="monospace">Vout</text>
-            <!-- Waveform below -->
-            <path d="M20 175 L40 175 L40 165 L60 165 L60 175 L80 175 L80 165 L100 165 L100 175 L120 175" fill="none" stroke="#39ff14" stroke-width="1.2" opacity="0.6"/>
-            <path d="M140 175 Q160 160 180 175 Q200 190 220 175 Q230 168 240 175" fill="none" stroke="#00c8ff" stroke-width="1.2" opacity="0.6"/>
-            <text x="65" y="192" text-anchor="middle" fill="#8899bb" font-size="6.5" font-family="monospace">Buck-Boost Waveforms</text>
+          <svg width="300" height="310" viewBox="0 0 300 310" xmlns="http://www.w3.org/2000/svg" style="overflow:visible">
+            <!-- ===================================================
+                 Full-bridge (H-bridge) GaN HEMT Bidirectional
+                 Buck-Boost Converter
+                 Layout:
+                   Top rail   y=30,  x=20..280
+                   Bot rail   y=210, x=20..280
+                   Vdc src    x=15,  y=30..210
+                   C1         x=55,  y=30..210
+                   Left mid   x=90,  y=30..210
+                   sw1/D1     top-left  x=90, y=30..120
+                   sw2/D2     bot-left  x=90, y=120..210
+                   Inductor L x=115..185, y=120
+                   sw3/D3     top-right x=210, y=30..120
+                   sw4/D4     bot-right x=210, y=120..210
+                   C2         x=245, y=30..210
+                   Vo / Load  x=280, y=30..210
+                 Waveforms    y=235..305
+            ================================================== -->
+            <defs>
+              <marker id="tip" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+                <path d="M1 1L7 4L1 7" fill="none" stroke="#00c8ff" stroke-width="1.2" stroke-linejoin="round"/>
+              </marker>
+            </defs>
+
+            <!-- ── TOP RAIL ──────────────────────────────────── -->
+            <line x1="20" y1="30" x2="280" y2="30" stroke="#00c8ff" stroke-width="1.5"/>
+            <!-- ── BOTTOM RAIL ─────────────────────────────── -->
+            <line x1="20" y1="210" x2="280" y2="210" stroke="#00c8ff" stroke-width="1.5"/>
+
+            <!-- ── Vdc SOURCE (circle) ────────────────────── -->
+            <line x1="20" y1="30"  x2="20" y2="96"  stroke="#00c8ff" stroke-width="1.4"/>
+            <line x1="20" y1="144" x2="20" y2="210" stroke="#00c8ff" stroke-width="1.4"/>
+            <circle cx="20" cy="120" r="22" fill="none" stroke="#00c8ff" stroke-width="1.3"/>
+            <text x="20" y="113" text-anchor="middle" fill="#00c8ff" font-size="10" font-family="monospace">+</text>
+            <text x="20" y="130" text-anchor="middle" fill="#00c8ff" font-size="10" font-family="monospace">−</text>
+            <text x="-7"  y="123" text-anchor="middle" fill="#8899bb" font-size="10" font-family="monospace" transform="rotate(-90,-7,123)">Vdc</text>
+
+            <!-- ── C1 CAPACITOR (x=55) ────────────────────── -->
+            <line x1="55" y1="30"  x2="55" y2="106" stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="42" y1="110" x2="68" y2="110" stroke="#00c8ff" stroke-width="2"/>
+            <line x1="42" y1="116" x2="68" y2="116" stroke="#00c8ff" stroke-width="2"/>
+            <line x1="55" y1="120" x2="55" y2="210" stroke="#00c8ff" stroke-width="1.3"/>
+            <text x="72" y="116" fill="#8899bb" font-size="10" font-family="monospace">C1</text>
+            <!-- connect rails to C1 -->
+            <line x1="20"  y1="30"  x2="55" y2="30"  stroke="#00c8ff" stroke-width="1.4"/>
+            <line x1="20"  y1="210" x2="55" y2="210" stroke="#00c8ff" stroke-width="1.4"/>
+
+            <!-- ── LEFT MIDPOINT (x=90) node ──────────────── -->
+            <line x1="55" y1="30"  x2="90" y2="30"  stroke="#00c8ff" stroke-width="1.4"/>
+            <line x1="55" y1="210" x2="90" y2="210" stroke="#00c8ff" stroke-width="1.4"/>
+
+            <!-- sw1 (top-left MOSFET): drain y=30, src y=90, gate from left -->
+            <!-- body box -->
+            <rect x="80" y="42" width="20" height="28" rx="2" fill="rgba(57,255,20,0.07)" stroke="#39ff14" stroke-width="1.1"/>
+            <!-- gate stub -->
+            <line x1="80" y1="53" x2="73" y2="53" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="73" y1="45" x2="73" y2="61" stroke="#39ff14" stroke-width="1.4"/>
+            <!-- drain wire top to box -->
+            <line x1="90" y1="30"  x2="90" y2="42"  stroke="#00c8ff" stroke-width="1.3"/>
+            <!-- source wire box to midpoint -->
+            <line x1="90" y1="70"  x2="90" y2="90"  stroke="#00c8ff" stroke-width="1.3"/>
+            <!-- arrow (drain→src downward) -->
+            <line x1="90" y1="70" x2="90" y2="80" stroke="#00c8ff" stroke-width="1" marker-end="url(#tip)"/>
+            <text x="85" y="60" fill="#39ff14" font-size="7" font-family="monospace">sw1</text>
+
+            <!-- D1 (antiparallel to sw1): cathode y=30, anode y=90 — to the right at x=112 -->
+            <line x1="112" y1="30"  x2="112" y2="65" stroke="#00c8ff" stroke-width="1.1"/>
+            <polygon points="112,65 106,78 118,78" fill="none" stroke="#00c8ff" stroke-width="1.1"/>
+            <line x1="106" y1="78" x2="118" y2="78" stroke="#00c8ff" stroke-width="1.8"/>
+            <line x1="112" y1="78"  x2="112" y2="90" stroke="#00c8ff" stroke-width="1.1"/>
+            <text x="121" y="74" fill="#8899bb" font-size="7" font-family="monospace">D1</text>
+            <!-- tie D1 rail-ends to top/mid rails -->
+            <line x1="90"  y1="30" x2="112" y2="30" stroke="#00c8ff" stroke-width="1.2"/>
+            <line x1="90"  y1="90" x2="112" y2="90" stroke="#00c8ff" stroke-width="1.2"/>
+
+            <!-- sw2 (bottom-left MOSFET): drain y=150, src y=210, gate from left -->
+            <rect x="80" y="140" width="20" height="28" rx="2" fill="rgba(57,255,20,0.07)" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="80" y1="151" x2="73" y2="151" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="73" y1="143" x2="73" y2="159" stroke="#39ff14" stroke-width="1.4"/>
+            <!-- drain wire mid to box -->
+            <line x1="90" y1="90"  x2="90" y2="140" stroke="#00c8ff" stroke-width="1.3"/>
+            <!-- src wire box to bot rail -->
+            <line x1="90" y1="168" x2="90" y2="210" stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="90" y1="168" x2="90" y2="178" stroke="#00c8ff" stroke-width="1" marker-end="url(#tip)"/>
+
+            <text x="85" y="158" fill="#39ff14" font-size="7" font-family="monospace">sw3</text>
+
+            <!-- D2 (antiparallel to sw2): at x=112, cathode y=150, anode y=210 -->
+            <line x1="112" y1="90"  x2="112" y2="148" stroke="#00c8ff" stroke-width="1.1"/>
+            <polygon points="112,148 106,161 118,161" fill="none" stroke="#00c8ff" stroke-width="1.1"/>
+            <line x1="106" y1="161" x2="118" y2="161" stroke="#00c8ff" stroke-width="1.8"/>
+            <line x1="112" y1="161" x2="112" y2="210" stroke="#00c8ff" stroke-width="1.1"/>
+            <text x="121" y="157" fill="#8899bb" font-size="7" font-family="monospace">D3</text>
+            <line x1="90"  y1="210" x2="112" y2="210" stroke="#00c8ff" stroke-width="1.2"/>
+
+            <!-- ── INDUCTOR L (centre, y=90, x=115..185) ──── -->
+            <line x1="112" y1="110" x2="128" y2="110" stroke="#00c8ff" stroke-width="1.3"/>
+<path d="M128,110 Q132,100 138,110 Q142,100 148,110 Q152,100 158,110 Q162,100 168,110 Q172,100 178,110"
+      fill="none" stroke="#39ff14" stroke-width="1.4"/>
+<line x1="178" y1="110" x2="188" y2="110" stroke="#00c8ff" stroke-width="1.3"/>
+<text x="153" y="96" text-anchor="middle" fill="#39ff14" font-size="8" font-family="monospace">L</text>
+
+            <!-- ── RIGHT MIDPOINT (x=188..210) node ──────── -->
+            <line x1="188" y1="90" x2="210" y2="90" stroke="#00c8ff" stroke-width="1.3"/>
+            <!-- connect midpoint to sw3 drain (top) and sw4 source (bot) -->
+            <line x1="210" y1="30"  x2="210" y2="42"  stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="210" y1="168" x2="210" y2="210" stroke="#00c8ff" stroke-width="1.3"/>
+
+            <!-- sw3 (top-right): drain y=30, src y=90 -->
+            <rect x="200" y="42" width="20" height="28" rx="2" fill="rgba(57,255,20,0.07)" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="220" y1="53" x2="227" y2="53" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="227" y1="45" x2="227" y2="61" stroke="#39ff14" stroke-width="1.4"/>
+            <line x1="210" y1="70"  x2="210" y2="90"  stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="210" y1="70" x2="210" y2="80" stroke="#00c8ff" stroke-width="1" marker-end="url(#tip)"/>
+            <text x="205" y="60" fill="#39ff14" font-size="7" font-family="monospace">sw2</text>
+
+            <!-- D3 (antiparallel to sw3): at x=188, cathode y=30, anode y=90 -->
+            <line x1="188" y1="30"  x2="188" y2="65" stroke="#00c8ff" stroke-width="1.1"/>
+            <polygon points="188,65 182,78 194,78" fill="none" stroke="#00c8ff" stroke-width="1.1"/>
+            <line x1="182" y1="78" x2="194" y2="78" stroke="#00c8ff" stroke-width="1.8"/>
+            <line x1="188" y1="78"  x2="188" y2="90" stroke="#00c8ff" stroke-width="1.1"/>
+            <text x="168" y="74" fill="#8899bb" font-size="7" font-family="monospace">D2</text>
+            <line x1="188" y1="30" x2="210" y2="30" stroke="#00c8ff" stroke-width="1.2"/>
+
+            <!-- sw4 (bottom-right): drain y=90, src y=210 -->
+            <rect x="200" y="140" width="20" height="28" rx="2" fill="rgba(57,255,20,0.07)" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="220" y1="151" x2="227" y2="151" stroke="#39ff14" stroke-width="1.1"/>
+            <line x1="227" y1="143" x2="227" y2="159" stroke="#39ff14" stroke-width="1.4"/>
+            <line x1="210" y1="90"  x2="210" y2="140" stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="210" y1="168" x2="210" y2="178" stroke="#00c8ff" stroke-width="1" marker-end="url(#tip)"/>
+            <text x="205" y="158" fill="#39ff14" font-size="7" font-family="monospace">sw4</text>
+
+            <!-- D4 (antiparallel to sw4): at x=188, cathode y=90, anode y=210 -->
+            <line x1="188" y1="90"  x2="188" y2="148" stroke="#00c8ff" stroke-width="1.1"/>
+            <polygon points="188,148 182,161 194,161" fill="none" stroke="#00c8ff" stroke-width="1.1"/>
+            <line x1="182" y1="161" x2="194" y2="161" stroke="#00c8ff" stroke-width="1.8"/>
+            <line x1="188" y1="161" x2="188" y2="210" stroke="#00c8ff" stroke-width="1.1"/>
+            <text x="168" y="157" fill="#8899bb" font-size="7" font-family="monospace">D4</text>
+            <line x1="188" y1="210" x2="210" y2="210" stroke="#00c8ff" stroke-width="1.2"/>
+
+            <!-- ── C2 CAPACITOR (x=245) ────────────────────── -->
+            <line x1="245" y1="30"  x2="245" y2="106" stroke="#00c8ff" stroke-width="1.3"/>
+            <line x1="232" y1="110" x2="258" y2="110" stroke="#00c8ff" stroke-width="2"/>
+            <line x1="232" y1="116" x2="258" y2="116" stroke="#00c8ff" stroke-width="2"/>
+            <line x1="245" y1="120" x2="245" y2="210" stroke="#00c8ff" stroke-width="1.3"/>
+            <text x="261" y="116" fill="#8899bb" font-size="8" font-family="monospace">C2</text>
+            <line x1="210" y1="30"  x2="245" y2="30"  stroke="#00c8ff" stroke-width="1.4"/>
+            <line x1="210" y1="210" x2="245" y2="210" stroke="#00c8ff" stroke-width="1.4"/>
+
+            <!-- ── OUTPUT / Vo (x=280) ─────────────────────── -->
+            <line x1="245" y1="30"  x2="280" y2="30"  stroke="#00c8ff" stroke-width="1.2"/>
+            <line x1="245" y1="210" x2="280" y2="210" stroke="#00c8ff" stroke-width="1.2"/>
+            <line x1="280" y1="30"  x2="280" y2="95"  stroke="#00c8ff" stroke-width="1.2"/>
+            <line x1="280" y1="145" x2="280" y2="210" stroke="#00c8ff" stroke-width="1.2"/>
+            <circle cx="280" cy="95"  r="2.5" fill="#00c8ff"/>
+            <circle cx="280" cy="145" r="2.5" fill="#00c8ff"/>
+            <text x="292" y="123" fill="#39ff14" font-size="9" font-family="monospace">Vo</text>
+
+            <!-- ── WAVEFORM DIVIDER ─────────────────────────── -->
+            <line x1="10" y1="227" x2="290" y2="227" stroke="#4a5a7a" stroke-width="0.5" stroke-dasharray="3 3"/>
+
+            <!-- Input waveform label -->
+<text x="12" y="254" fill="#8899bb" font-size="10" font-family="monospace">Vin</text>
+
+<!-- Input square wave (small amplitude) -->
+<polyline points="30,268 44,268 44,257 62,257 62,268 76,268 76,257 94,257 94,268 108,268"
+          fill="none" stroke="#00c8ff" stroke-width="1.4"/>
+<line x1="12" y1="268" x2="30" y2="268" stroke="#00c8ff" stroke-width="1.4"/>
+
+<!-- Shared axis -->
+<line x1="12" y1="270" x2="112" y2="270" stroke="#4a5a7a" stroke-width="0.5"/>
+
+<!-- Output waveform label -->
+<text x="130" y="254" fill="#8899bb" font-size="10" font-family="monospace">Vo </text>
+
+<!-- Output square wave (taller amplitude) -->
+<polyline points="148,268 162,268 162,240 180,240 180,268 198,268 198,240 216,240 216,268 230,268"
+          fill="none" stroke="#39ff14" stroke-width="1.6"/>
+<line x1="130" y1="268" x2="148" y2="268" stroke="#39ff14" stroke-width="1.6"/>
+
+<!-- Shared axis -->
+<line x1="130" y1="270" x2="234" y2="270" stroke="#4a5a7a" stroke-width="0.5"/>
+
+            <!-- Amplitude annotation -->
+            <line x1="238" y1="240" x2="238" y2="268" stroke="#4a5a7a" stroke-width="0.8" stroke-dasharray="2 2"/>
+            <text x="242" y="257" fill="#8899bb" font-size="6.5" font-family="monospace">Vout</text>
+
+            <!-- Title label -->
+            <text x="130" y="302" text-anchor="middle" fill="#4a5a7a" font-size="10" font-family="monospace">Full-Bridge GaN HEMT Bidirectional Converter</text>
           </svg>
         </div>
       </div>
       <div class="project-info">
         <div class="project-badge">
-          <i class="fas fa-graduation-cap"></i> Graduation Project · Feb 2026
+          <i class="fas fa-graduation-cap"></i> Graduation Project · JUL 2025
         </div>
         <h3 class="project-title">GaN HEMT-Based Bidirectional Buck-Boost Converter</h3>
         <p class="project-desc">
@@ -1613,7 +1823,7 @@
           <span class="tag">DC-DC Converter</span>
         </div>
         <div class="project-meta">
-          <i class="fas fa-university"></i> Birzeit University · B.Sc. Electrical Engineering · February 2026
+          <i class="fas fa-university"></i> Birzeit University · B.Sc. Electrical Engineering · July 2025
         </div>
       </div>
     </div>
@@ -1629,7 +1839,25 @@
     </div>
     <div class="cert-grid">
 
-      <!-- Cert 1: McKinsey -->
+<div class="cert-card fade-up">
+        <div class="cert-top">
+          <span class="cert-issuer-chip">Google · Coursera</span>
+          <span class="cert-date">May – Jun 2026</span>
+        </div>
+        <h3 class="cert-name">Foundations of Project Management</h3>
+        <div class="cert-skills">
+		<span class="cert-skill-chip">Project Management</span>
+          <span class="cert-skill-chip">Program Management</span>
+          <span class="cert-skill-chip">Project Planning</span>
+          <span class="cert-skill-chip">Project Coordination</span>
+          <span class="cert-skill-chip">Strategic Thinking</span>
+
+        </div>
+        <a href="https://www.coursera.org/account/accomplishments/verify/BV7KWY9YMFBN" target="_blank" rel="noopener noreferrer" class="cert-verify-btn">
+          <i class="fas fa-external-link-alt"></i> Verify Certificate
+        </a>
+      </div>
+	<!-- Cert 1: McKinsey -->
       <div class="cert-card fade-up">
         <div class="cert-top">
           <span class="cert-issuer-chip">McKinsey.org</span>
@@ -1733,7 +1961,7 @@
       <h2 class="section-title">Let's Work <span>Together</span></h2>
     </div>
     <div class="contact-intro fade-up">
-      <p>I'm available immediately and open to opportunities across all electrical engineering domains — solar, automation, power electronics, or beyond. Let's connect and build something great.</p>
+      <p>I'm currently working as an Electrical Design Engineer at Orbit Consulting Engineers and remain open to connecting with professionals across electrical engineering — MEP design, solar, automation, power electronics, and beyond.</p>
     </div>
     <div class="contact-cards">
 
@@ -1763,7 +1991,7 @@
 <footer>
   <p>
     © 2026 <span>Abdullah Thabit Sabbah</span> · All Rights Reserved ·
-    <span style="color:var(--accent-green);">Available Immediately</span>
+    <span style="color:var(--accent-green);">Currently Employed</span>
   </p>
 </footer>
 
@@ -1798,6 +2026,8 @@
   // ===== TYPING ANIMATION =====
   const typingEl = document.getElementById('typingText');
   const phrases = [
+    'Electrical Design Engineer',
+    'MEP Design & Coordination',
     'PV Systems Designer',
     'KNX/BMS Automation Engineer',
     'Power Electronics Enthusiast',
